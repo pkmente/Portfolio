@@ -3,9 +3,9 @@ import project2 from "../assets/projects/Aerator.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React, as well as back-end technologies like django, PostgreSQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React, as well as back-end technologies like django, PostgreSQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including ReactJs, React Native, PostgreSQL, Internet of Things. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including ReactJs, React Native, PostgreSQL, Internet of Things. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EDUCATION = [
   {
@@ -57,16 +57,18 @@ export const PROJECTS = [
     title: "EV - Starter",
     image: project1,
     description:
-      "A fully functional Sequential Starter for E-BAHA Vehicle. Battery Electric Vehicle use electric motors to drive the wheels, it is a bit like asking   “do starter motors have starter motors”",
+      "A fully functional Sequential Starter for E-BAHA Vehicle. Battery Electric Vehicle use electric motors to drive the wheels,Here it requires the starter “to Start the Ev Vehicle in Sequential Order”",
     technologies: ["Arduino", "C Programming"],
+    project_url : "https://drive.google.com/drive/folders/1BN3B1dDV3oqFgk06Dwjk8IKJKIcGKQbj"
   },
-  //  {
-  //   title: "Aerator Monitoring System",
-  //   image: project2,
-  //   description:
-  //     "Automated device that can controll all the Aerators at the aquaCulture Farms to reduce Manpower and to increase Efficiency at Ponds",
-  //   technologies: ["Arduino", "C Programming"],
-  // },
+   {
+    title: "Aerator Monitoring System",
+    image: project2,
+    description:
+      "Automated device that can control all the Aerators at the aquaCulture Farms to reduce Manpower and to increase Efficiency at Ponds",
+    technologies: ["Arduino", "C Programming"],
+    project_url : "https://drive.google.com/drive/folders/1BN3B1dDV3oqFgk06Dwjk8IKJKIcGKQbj"
+  },
   // {
   //   title: "Task Management App",
   //   image: project2,
@@ -91,7 +93,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "3-61b,Pallapu street Gollavanitippa BHIMAVRAM - 534239",
+  phoneNo: "+91-9490689700",
+  email: "prabhukumarmente885@gmail.com",
 };
